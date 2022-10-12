@@ -62,6 +62,7 @@ table {
 
     /* nav */
     nav {
+        padding-top: 10px;
         width: 100%;
         height: 5vh;
         display: flex;
@@ -122,6 +123,47 @@ table {
         opacity: 0.2;
     }
 
-
 }
 
+/* 
+
+break - pagina de fotos
+
+*/
+
+@media screen and (max-width: 468px) {
+
+    body {
+        background-color: #9F86C0;
+    }
+
+    .nav-photos{
+        padding-top: 10px;
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-photos>p:nth-of-type(2) {
+        font-size: 16px;
+    }
+
+    #photo-gallery {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .photo {
+        border-radius: 8px;
+        width: 85%;
+        height: 400px;
+        background-color: black;
+        border: 1px solid white;
+    }
+
+}
