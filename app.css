@@ -167,6 +167,10 @@ break - pagina de fotos
         gap: 20px;
     }
 
+    #photo-gallery>p {
+        text-align: center;
+    }
+
     .photo {
         border-radius: 8px;
         width: 95%;
@@ -181,7 +185,7 @@ break - pagina de fotos
 
 @media screen and (max-width: 468px) {
 
-    #nav-textinhos {
+    .nav-textinhos {
         width: 100%;
         height: 20vh;
         display: flex;
@@ -191,19 +195,18 @@ break - pagina de fotos
         gap: 15px;
     }
 
-    #nav-textinhos>p:nth-of-type(2) {
+    .nav-textinhos>p:nth-of-type(2) {
         font-size: 20px;
         text-align: center;
     }
 
-    #nav-textinhos>p:nth-of-type(3) {
+    .nav-textinhos>p:nth-of-type(3) {
         font-size: 12px;
         text-align: center;
         opacity: 0.7;
     }
 
     #text-gallery {
-        display: flex;
         background-color: #E39EC1;
         border-radius: 15px;
     }
@@ -223,6 +226,48 @@ break - pagina de fotos
         font-size: 22px;
     }
 
+}
 
+/* break - pagina das musicas */
 
+@media screen and (max-width: 468px) {
+
+    .nav-musics {
+        width: 100%;
+        height: 7vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    #music-gallery {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        background-color: #E39EC1;
+        border-radius: 15px;
+    }
+
+    #music-gallery>p {
+        text-align: center;
+    }
+
+    .musicas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .musicas>p {
+        text-align: center;
+    }
+
+    
 }
