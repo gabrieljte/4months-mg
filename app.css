@@ -173,8 +173,8 @@ break - pagina de fotos
 
     .photo {
         border-radius: 8px;
-        width: 95%;
-        height: 300px;
+        width: 90%;
+        height: 350px;
         background-color: black;
         border: 1px solid white;
     }
